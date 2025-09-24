@@ -1,0 +1,76 @@
+.hero-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero_main {
+  flex: 1;
+  max-width: 500px;
+}
+
+.hero__image img {
+  width: 450px;
+  height: auto;
+}
+
+/* Общая шапка */
+.header {
+  background-color: #0b0f19; /* тёмный фон */
+  padding: 15px 0;          /* отступы сверху и снизу */
+}
+
+/* Контейнер */
+.header__main {
+  display: flex;
+  justify-content: space-between; /* лого слева, меню справа */
+  align-items: center;
+}
+
+/* Логотип */
+.header__logo img {
+  width: 140px;  /* уменьшаем логотип */
+  height: auto;
+  display: block;
+}
+
+/* Центр. навигация */
+.header__nav--center ul {
+  display: flex;
+  gap: 30px; /* расстояние между ссылками */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav--center a {
+  text-decoration: none;
+  color: #fff;          /* белый текст */
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.header__nav--center a:hover {
+  color: #00aaff; /* подсветка при наведении */
+}
+
+/* Правое меню (Try for free) */
+.header__nav--left ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav--left a {
+  background-color: #007bff; /* синий фон кнопки */
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header__nav--left a:hover {
+  background-color: #0056b3;
+}
