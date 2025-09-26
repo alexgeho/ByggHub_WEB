@@ -1,0 +1,58 @@
+.block3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background: #E8F4FF;
+    gap: 60px;
+    width: 100%;
+   
+}
+
+
+
+
+.phoneImage img {
+  width: 350px;
+  margin-top: 400px;
+  height: auto;
+  object-fit: cover;             /* чтобы ровно обрезало */
+}
+
+.phone2Image img {
+    width: 400px;
+    margin-bottom: 450px;
+    height: auto;
+}
+
+
+.block {
+  background: #ffffff;           /* фон подложки */
+  border-radius: 20px;           /* скругленные углы */
+  padding: 40px;                 /* внутренние отступы */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px; 
+  gap: 40px;
+  overflow: hidden; 
+  width: 80%;             /* чтобы обрезало лишнее у телефона */
+}
+
+.blockTitle {
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+
+.blockText {
+    color: #052D50;
+    opacity: 0.6;
+      margin-bottom: 20px;
+
+}
+
+.title3block {
+    font-size: 48px;
+    margin-top: 40px;
+}
